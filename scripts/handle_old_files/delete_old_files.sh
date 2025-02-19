@@ -10,8 +10,8 @@ find "$TARGET_DIR" -type f -mtime +30 -exec rm -v {} \; >> "$LOG_FILE" 2>&1
 # Log completion time
 echo "Cleanup completed at $(date)" >> "$LOG_FILE"
 
-# Change perms to enable execution:
+# Make this script executable:
 # chmod 755 delete_old_files.sh
 
-# Schedule it in crontab -e to run daily at 3 AM:
-# 0 3 * * * /path/to/delete_old_files.sh
+# Schedule this script in crontab -e to run dauly at 4 AM:
+# 0 4 * * * /path/to/delete_old_files.sh
