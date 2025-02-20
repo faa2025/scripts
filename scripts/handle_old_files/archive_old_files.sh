@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Directories
-SOURCE_DIR="$HOME/video_clips"
-DEST_DIR="$HOME/video_clips_zipped"
+SOURCE_DIR="$HOME/target_dir"
+DEST_DIR="$HOME/target_dir_zipped"
 LOG_FILE="$HOME/archive_old_files.log"
 
 # Ensure the destination directory exists
