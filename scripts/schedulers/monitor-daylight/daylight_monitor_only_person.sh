@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This script triggers "inference_test.py" based on daylight status. Daylight status is fetched from SpringBoot app. 
+# This script triggers "run_person_inference.py" based on daylight status. Daylight status is fetched from SpringBoot app. 
 
 # API Endpoint of your Spring Boot application
 API_URL="http://127.0.0.1:8080/api/daylight"  #Replace with "http://our-deployed-backend-URL/api/daylight"
