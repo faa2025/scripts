@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Directory containing the files
-TARGET_DIR="$HOME/video_clips"
+TARGET_DIR="$HOME/path_to_target_dir"
 LOG_FILE="$HOME/delete_old_files.log"
 
 # Find and delete files older than 30 days
