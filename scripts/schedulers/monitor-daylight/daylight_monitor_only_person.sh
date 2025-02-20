@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# This script has already been integrated with AI component. See the "ai-security-camera-object-detection" repository
 # This script triggers "run_person_inference.py" based on daylight status. Daylight status is fetched from SpringBoot app. 
 
 # API Endpoint of your Spring Boot application
