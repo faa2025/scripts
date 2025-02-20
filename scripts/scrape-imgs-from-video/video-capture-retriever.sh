@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# This script has been used to collect raw data for AI training. 
+
 # --- 1. SETUP ---
 
 # Name a folder by today's date, e.g., /var/www/html/images/2025-01-26
