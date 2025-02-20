@@ -20,7 +20,9 @@ Scripts running on the backend server
 - `daylight_monitor.sh`
 	- Monitors the daylight status, runs periodically as a cronjob. If daylight is true or false, invokes or stops another script respectively (echo_camera.sh, for now).
  	- Should still be scheduled with a cronjob (see the .sh file for instructions in the comments).
-
+- `test_trigger.sh`
+	- Can be used to manually set the TRUE/FALSE value to start/stop the inference scripts manually.
+	- Included for testing purposes. 
 	
 ## 4. scrape-imgs-from-video -FOLDER
 - Sripts in this folder scrape image files from a youtube livestream. This script has been used to gather training data for the AI model in one of the AI versions.
