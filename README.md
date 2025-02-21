@@ -2,7 +2,7 @@
 Central repository for scripts running on the backend server. Most have been implemented and require no further action. 
 
 ## 1. rename-files -FOLDER
-- Scripts in this folder rename files in a designated folder. The script adds a specified prefix to all files of the folder. Change filenames / paths according to your environment.
+- Scripts in this folder rename files in a designated folder. The script adds a specified prefix to all filenames. Change filenames / paths according to your environment.
 - `rename_hastrains.sh`
 - `rename_notrains.sh`
 
