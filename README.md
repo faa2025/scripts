@@ -21,6 +21,7 @@ Central repository for scripts running on the backend server. Most have been imp
 
 - `daylight_monitor.sh`
 	- Monitors the daylight status, runs periodically as a cronjob. If daylight is true or false, invokes or stops another script respectively (echo_camera.sh, for now).
+ 	- Requires for the Spring Boot application to be running and later an updated URL for the deployed Spring Boot application (instead of localhost:8080) 
  	- Should still be scheduled with a cronjob (see the .sh file for instructions in the comments).
 - `test_trigger.sh`
 	- Can be used to manually set the TRUE/FALSE value to start/stop the inference scripts manually.
